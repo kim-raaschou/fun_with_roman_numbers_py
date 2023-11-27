@@ -95,3 +95,6 @@ def test_roman_number_900():
 
 def test_roman_number_1000():
     assert "M" == roman_numbers.romanNumber(1000)
+    
+def test_roman_number_2751():
+    assert "MMDCCLI" == roman_numbers.romanNumber(2751)
