@@ -16,8 +16,7 @@ def romanNumber(val):
             case _ if val >= 1    : return "I"  + romanNumber(val  -1)            
             case _                : return ""
     else:    
-        val = [*val] if isinstance(val, str) else val    
-        match [*val]:
+        match [*val] if isinstance(val, str) else val :
             case ['M', *rest]      : return 1000 + romanNumber(rest) 
             case ['C', 'M', *rest] : return 900  + romanNumber(rest) 
             case ['D', *rest]      : return 500  + romanNumber(rest) 
