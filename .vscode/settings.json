@@ -1,6 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        "."
+        "roman_number_tests.py", "roman_number_combinatorial_tests.py"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
