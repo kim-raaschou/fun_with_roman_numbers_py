@@ -1,6 +1,6 @@
 # Fun_with_roman_numbers in Python
 
-Velkommen til "Fun With Roman Numbers" - en legende og humoristisk kode kata, hvor jeg udforsker den spændende verden af romertal i Python!
+Velkommen til "Fun With Roman Numbers" - en legende og humoristisk kode kata, hvor jeg udforsker den spændende verden af romertal i Python og pytest!
 
 ## Opgaven
 
